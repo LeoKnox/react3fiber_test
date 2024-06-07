@@ -16,9 +16,9 @@ export default Build = () => {
             <boxGeometry />
             <meshStandardMaterial />
           </mesh>
-          <mesh position={[0, -3, 0]}>
-            <planeGeometry attach="geometry" args={[25, 8]} />
-            <meshStandardMaterial color = "red" />
+          <mesh position={[0, -3, 0]} rotation={[0, 0, 90]}>
+            <planeGeometry attach="geometry" args={[25, 10, 30, 90]} />
+            <meshStandardMaterial color="red" />
           </mesh>
         </group>
       </Canvas>
